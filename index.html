@@ -13,25 +13,25 @@
                 <h2>Example №1</h2>
                 <div class="group">
                     <div class="group__inner">
-                        <label styles="" class="small ifta-label" for="input1">Quantity</label>
+                        <label styles="" class="ifta-label" for="input1">Quantity</label>
                         <input type="number" class="ifta-field" id="input1" placeholder="0" />
                     </div>
                     <div class="group__inner">
-                        <label styles="" class="small ifta-label" for="input1">Boxes</label>
+                        <label styles="" class="ifta-label" for="input1">Boxes</label>
                         <input type="number" class="ifta-field" id="input2" placeholder="0" />
                     </div>
                     <div class="group__inner">
-                        <label class="small ifta-label" for="updateQty">Update Qty</label>
+                        <label class="ifta-label" for="updateQty">Update Qty</label>
                         <input type="number" class="ifta-field" id="updateQty" v-model="updateQty" placeholder="0" />
                     </div>
                 </div>
                 <div class="group">
                     <div class="group__inner">
-                        <label styles="" class="small ifta-label" for="input1">Units Expected</label>
+                        <label styles="" class="ifta-label" for="input1">Units Expected</label>
                         <input type="number" class="ifta-field" id="input4" placeholder="0" />
                     </div>
                     <div class="group__inner">
-                        <label styles="" class="small ifta-label" for="input1">Qty per Box</label>
+                        <label styles="" class="ifta-label" for="input1">Qty per Box</label>
                         <input type="number" class="ifta-field" id="input5" placeholder="0" />
                     </div>
                     <div class="btn-container">
@@ -54,25 +54,60 @@
                         <button @click="increment">+</button>
                     </div>
                     <div class="group__inner">
-                        <label class="small ifta-label" for="updateQty">Update Qty</label>
+                        <label class="ifta-label" for="updateQty">Update Qty</label>
                         <input type="number" class="ifta-field" id="updateQty" v-model="updateQty" placeholder="0" />
                     </div>
                     <div class="group__inner">
-                        <label styles="" class="small ifta-label" for="input1">Quantity</label>
+                        <label styles="" class="ifta-label" for="input1">Quantity</label>
                         <input type="number" class="ifta-field" id="input1" placeholder="0" />
                     </div>
                 </div>
                 <div class="group">
                     <div class="group__inner">
-                        <label styles="" class="small ifta-label" for="input1">Units Expected</label>
+                        <label styles="" class="ifta-label" for="input1">Units Expected</label>
                         <input type="number" class="ifta-field" id="input4" placeholder="0" />
                     </div>                    
                     <div class="group__inner">
-                        <label styles="" class="small ifta-label" for="input1">Qty per Box</label>
+                        <label styles="" class="ifta-label" for="input1">Qty per Box</label>
                         <input type="number" class="ifta-field" id="input5" placeholder="0" />
                     </div>
                     <div class="group__inner">
-                        <label styles="" class="small ifta-label" for="input1">Boxes</label>
+                        <label styles="" class="ifta-label" for="input1">Boxes</label>
+                        <input type="number" class="ifta-field" id="input2" placeholder="0" />
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="img/Gallary.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="wrapper">
+            <div>
+                <h2>Example №3</h2>
+                <div class="group">    
+                    <div class="group__inner">
+                        <label styles="" class="ifta-label" for="input1">Quantity</label>
+                        <input type="number" class="ifta-field activ" id="input1" placeholder="0" />
+                    </div>
+                    <div class="group__inner btn-container_three">
+                        <button @click="increment">+</button>
+                        <label class="ifta-label" for="updateQty">Update Qty</label>
+                        <input type="number" class="ifta-field" id="updateQty" v-model="updateQty" placeholder="0" />
+                        <button @click="decrement">-</button>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="group__inner">
+                        <label styles="" class="ifta-label" for="input1">Units Expected</label>
+                        <input type="number" class="ifta-field" id="input4" placeholder="0" />
+                    </div>                    
+                    <div class="group__inner">
+                        <label styles="" class="ifta-label" for="input1">Qty per Box</label>
+                        <input type="number" class="ifta-field" id="input5" placeholder="0" />
+                    </div>
+                    <div class="group__inner">
+                        <label styles="" class="ifta-label" for="input1">Boxes</label>
                         <input type="number" class="ifta-field" id="input2" placeholder="0" />
                     </div>
                 </div>
